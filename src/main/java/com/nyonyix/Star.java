@@ -6,17 +6,24 @@ public class Star
 {
     private char spectral_class;
     private short temperature;
+    private String luminosity_class;
     private double radius;
     private double mass;
     private double luminosity;
 
     public Star()
     {
-        this.spectral_class = 'E';
+        this.spectral_class = generate_spectral_class();
         this.temperature = generate_temperature();
+        this.luminosity_class = "X";
         this.radius = 0;
         this.mass = 0;
         this.luminosity = 0;
+    }
+
+    private char generate_spectral_class()
+    {
+        return 'E';
     }
 
     private short generate_temperature()
@@ -32,6 +39,16 @@ public class Star
     public void setSpectral_class(char spectral_class)
     {
         this.spectral_class = spectral_class;
+    }
+
+    public String getLuminosity_class()
+    {
+        return luminosity_class;
+    }
+
+    public void setLuminosity_class(String luminosity_class)
+    {
+        this.luminosity_class = luminosity_class;
     }
 
     public short getTemperature()
@@ -73,4 +90,5 @@ public class Star
     {
         this.luminosity = luminosity;
     }
+
 }

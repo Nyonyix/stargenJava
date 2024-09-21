@@ -1,0 +1,125 @@
+{
+  "star": {
+    "spectral_classes": {
+      "M": {
+        "temp": [2200, 3800],
+        "spectral_class_string": "Red",
+        "weight": 72.0,
+        "luminosity_classes": {
+          "V": {
+            "luminosity_class_string": "Main Sequence",
+            "mass": [0.079, 0.45],
+            "radius": [0.102, 0.588],
+            "luminosity": [0.0003, 0.069],
+            "weight": 76.0
+          },
+          "IV": {
+            "luminosity_class_string": "Subgiant",
+            "mass": [0.57, 1.4],
+            "radius": [0.588, 1.2],
+            "luminosity": [0.069, 0.3],
+            "weight": 13.5
+          },
+          "III": {
+            "luminosity_class_string": "Giant",
+            "mass": [1.4, 3.0],
+            "radius": [1.2, 3.0],
+            "luminosity": [0.3, 1.0],
+            "weight": 7.5
+          },
+          "II": {
+            "luminosity_class_string": "Bright Giant",
+            "mass": [3.0, 6.0],
+            "radius": [3.0, 6.0],
+            "luminosity": [1.0, 3.0],
+            "weight": 1.5
+          },
+          "I": {
+            "luminosity_class_string": "Supergiant",
+            "mass": [6.0, 20.0],
+            "radius": [6.0, 20.0],
+            "luminosity": [3.0, 100.0],
+            "weight": 1.0
+          },
+          "0": {
+            "luminosity_class_string": "Hypergiant",
+            "mass": [20.0, 100.0],
+            "radius": [20.0, 100.0],
+            "luminosity": [100.0, 100000.0],
+            "weight": 0.5
+          }
+        }
+      },
+      "K": {
+        "temp": [3801, 5200],
+        "spectral_class_string": "Orange",
+        "weight": 12.5,
+        "luminosity_classes": {
+          "V": {
+            "luminosity_class_string": "Main Sequence",
+            "mass": [0.45, 0.85],
+            "radius": [0.588, 1.2],
+            "luminosity": [0.1, 0.5],
+            "weight": 70.0
+          },
+          "IV": {
+            "luminosity_class_string": "Subgiant",
+            "mass": [0.85, 1.4],
+            "radius": [1.2, 2.0],
+            "luminosity": [0.5, 1.5],
+            "weight": 17.5
+          },
+          "III": {
+            "luminosity_class_string": "Giant",
+            "mass": [1.4, 3.0],
+            "radius": [2.0, 5.0],
+            "luminosity": [1.5, 10.0],
+            "weight": 9.5
+          },
+          "II": {
+            "luminosity_class_string": "Bright Giant",
+            "mass": [3.0, 6.0],
+            "radius": [5.0, 10.0],
+            "luminosity": [10.0, 50.0],
+            "weight": 3.0
+          }
+        }
+      },
+      "G": {
+        "temp": [5201, 6000],
+        "spectral_class_string": "Yellow",
+        "weight": 7.5,
+        "luminosity_classes": {
+          "V": {
+            "luminosity_class_string": "Main Sequence",
+            "mass": [0.8, 1.2],
+            "radius": [0.9, 1.4],
+            "luminosity": [0.5, 1.5],
+            "weight": 61.0
+          },
+          "IV": {
+            "luminosity_class_string": "Subgiant",
+            "mass": [1.2, 1.8],
+            "radius": [1.4, 2.5],
+            "luminosity": [1.5, 4.0],
+            "weight": 22.5
+          },
+          "III": {
+            "luminosity_class_string": "Giant",
+            "mass": [1.8, 3.5],
+            "radius": [2.5, 5.0],
+            "luminosity": [4.0, 15.0],
+            "weight": 12.5
+          },
+          "II": {
+            "luminosity_class_string": "Bright Giant",
+            "mass": [3.5, 6.0],
+            "radius": [5.0, 10.0],
+            "luminosity": [15.0, 50.0],
+            "weight": 4.0
+          }
+        }
+      }
+    }
+  }
+}
